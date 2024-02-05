@@ -81,3 +81,45 @@ body {
     background: #FFCF01;
     padding: 15px;
 }
+.popup {
+    display: none;
+    position: relative;
+    font-family: Arial;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px #00000055;
+    border-radius: 8px;
+    padding: 40px;
+    background: white;
+}
+.popup_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+.popup_content {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.qr_store {
+    margin: 40px auto 50px auto;
+    width: 150px;
+    height: 150px;
+    image-rendering: pixelated;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../image/qr.png');
+}
+.popup_close {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
